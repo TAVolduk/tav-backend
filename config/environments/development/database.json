@@ -1,0 +1,19 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "ds161901.mlab.com",
+        "port": "61901",
+        "database": "tav",
+        "username": "api",
+        "password": "1954lotr",
+        "authenticationDatabase": "",
+        "ssl": false
+      },
+      "options": {}
+    }
+  }
+}
