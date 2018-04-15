@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "luggagewatcher",
+  "info": {
+    "name": "luggagewatcher",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "flightNumber": {
+      "multiple": false,
+      "type": "string"
+    },
+    "macAdress": {
+      "multiple": false,
+      "type": "string",
+      "unique": true
+    }
+  }
+}

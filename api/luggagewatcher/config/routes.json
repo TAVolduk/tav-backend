@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/luggagewatcher",
+      "handler": "Luggagewatcher.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/luggagewatcher/:_id",
+      "handler": "Luggagewatcher.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/luggagewatcher",
+      "handler": "Luggagewatcher.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/luggagewatcher/:_id",
+      "handler": "Luggagewatcher.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/luggagewatcher/:_id",
+      "handler": "Luggagewatcher.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

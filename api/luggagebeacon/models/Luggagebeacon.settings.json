@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "luggagebeacon",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "macAddress": {
+      "multiple": false,
+      "type": "string"
+    },
+    "flightNumber": {
+      "multiple": false,
+      "type": "string"
+    },
+    "seatNumber": {
+      "multiple": false,
+      "type": "string"
+    },
+    "isActive": {
+      "multiple": false,
+      "type": "boolean"
+    }
+  }
+}

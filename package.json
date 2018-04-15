@@ -22,6 +22,7 @@
     "axios": "^0.18.0",
     "lodash": "4.x.x",
     "moment": "^2.22.0",
+    "socket.io": "^2.1.0",
     "strapi": "3.0.0-alpha.11.3",
     "strapi-mongoose": "3.0.0-alpha.11.3"
   },

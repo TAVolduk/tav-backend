@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/luggagebeacon",
+      "handler": "Luggagebeacon.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/luggagebeacon/:_id",
+      "handler": "Luggagebeacon.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/luggagebeacon",
+      "handler": "Luggagebeacon.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/luggagebeacon/:_id",
+      "handler": "Luggagebeacon.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/luggagebeacon/:_id",
+      "handler": "Luggagebeacon.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
