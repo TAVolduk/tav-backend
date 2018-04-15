@@ -13,7 +13,7 @@
       "multiple": false,
       "type": "string"
     },
-    "macAdress": {
+    "macAddress": {
       "multiple": false,
       "type": "string",
       "unique": true
